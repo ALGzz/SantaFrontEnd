@@ -1,0 +1,13 @@
+header{background-image: url(../Imagenes/fondo_grande.jpg);}
+body{background-color: goldenrod;}
+.titulo{text-decoration-line: underline;font-family:'Perpetua', cursive;font-size: 2cm;}
+.texto{text-align: justify;font-style:italic;font-size: 7mm;}
+.subtitulo{text-align: center;font-family: 'Perpetua';font-size: 8mm;text-shadow:0px 2px 10px black ; }
+.titular{text-align: center;}
+img{padding: 10px;}
+ol{color:#FDEBD0;text-align:left;font-family: 'Perpetua';font-size: 6mm;}
+ul{color:#FDEBD0;text-align:left;font-family: 'Perpetua';font-size: 6mm;}
+h2{color:#880E4F;font-family:'Perpetua';font-size: 8mm;text-align: center;}
+.linea{background-color: #880E4F;color:#3949AB;}
+.imguno{width: 800px;height: 500px;}
+.imgdos{width: 500px;height: 800px;}
