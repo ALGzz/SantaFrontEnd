@@ -4,11 +4,25 @@ body{
     background-repeat: repeat-x;
     background-size: 360px;
 }
+header{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 200px;
+}
 nav{
     background-color:#3949AB;
     text-align: center;
     font-family:'Perpetua', cursive;
     font-size: x-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .titulo{
     text-decoration-line: underline;
@@ -51,8 +65,10 @@ h2{
     color:#3949AB;
 }
 .imguno{
-    width: 800px;
-    height: 500px;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 }
 .imgdos{
     width: 500px;
@@ -65,20 +81,45 @@ h2{
     right: 10px
 }
 section{
-    height: 500px;
+    height: 700px;
     overflow: scroll;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: wrap column;
+    align-content: space-between;
+}
+.segundo{
+    height: 300px;
+    overflow: scroll;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
 }
 aside{
     height: 400px;
     overflow: scroll;
+    display: flex;
 }
 .redes{
     width: 30px;
 }
+.block1{
+    width: 300px;
+}
+.block2{
+    width: 300px;
+}
+.block3{
+    width: 300px;
+}
 footer{
     background-color:#880E4F;
     color:#3949AB;
-    text-align: center;
-    font-size: 25px;
-    
+    font-size: 10px;
+    display:flex;
+    align-items: center;
+    align-content:center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
 }
