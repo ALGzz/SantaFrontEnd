@@ -1,47 +1,99 @@
+@font-face {
+    font-family: "arabe";
+    src: url(../font/arabe.ttf) format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&display=swap');
+.tituloconta{
+    font-family: 'Dancing Script', cursive;
+    color: #3949AB;
+}
 body{
     background-color: goldenrod;
-    background-image: url(../Imagenes/fondo_grande.jpg);
-    background-repeat: repeat-x;
-    background-size: 360px;
+    background-repeat:no-repeat;
+    background-position: 100%;
 }
 header{
-    display:flex;
+    background-image: url(../Imagenes/fondo_grande.jpg);
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-
+    flex-wrap: nowrap;
+    align-content: center;
+    flex-direction: row;
 }
 .logo{
-    width: 200px;
+    width: 20vw;
 }
 nav{
     background-color:#3949AB;
     text-align: center;
-    font-family:'Perpetua', cursive;
     font-size: x-large;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
+    font-family: 'Dancing Script', cursive;
+}
+a:hover{
+    color:white;
+    font-size: 10mm;
+    font-variant: initial;
+}
+.padre{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.caja1{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: space-between;
+}
+.imaguno{
+    width: 30vw;
+}
+.imagdos{
+    width: 30vw;
+}
+.caja2{
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+.audio1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
 }
 .titulo{
     text-decoration-line: underline;
-    font-family:'Perpetua', cursive;
-    font-size: 2cm;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1cm;
+    color:#3949AB;
+    background-color:goldenrod;
+    text-align: center;
 }
 .texto{
     text-align: justify;
     font-style:italic;
     font-size: 7mm;
+    color:#FDEBD0
 }
 .subtitulo{
     text-align: center;
     font-family: 'Perpetua';
     font-size: 8mm;
-    text-shadow:0px 2px 10px black ; 
+    text-shadow:0px 2px 10px black ;
+    color:#880E4F; 
 }
-.titular{text-align: center;}
-img{padding: 10px;}
+.titular{
+    text-align: center;
+    color:#880E4F;
+    font-family: "arabe"
+}
 ol{
     color:#FDEBD0;
     text-align:left;
@@ -64,16 +116,6 @@ h2{
     background-color: #880E4F;
     color:#3949AB;
 }
-.imguno{
-    width: 300px;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-}
-.imgdos{
-    width: 500px;
-    height: 800px;
-}
 .iconowhat{
     width: 40px;
     position: fixed;
@@ -81,36 +123,42 @@ h2{
     right: 10px
 }
 section{
-    height: 700px;
-    overflow: scroll;
     display: flex;
+    height: 189vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
     justify-content: flex-start;
-    flex-flow: wrap column;
-    align-content: space-between;
+    align-items: center;
 }
 .segundo{
-    height: 300px;
-    overflow: scroll;
     display: flex;
-    flex-flow: wrap;
-    justify-content: flex-start;
-}
-aside{
-    height: 400px;
-    overflow: scroll;
-    display: flex;
+    height: 189vh;
+    flex-direction: column;
+    flex-wrap: wrap
 }
 .redes{
     width: 30px;
 }
 .block1{
-    width: 300px;
+    width: 30vw;
+    text-align: center;
 }
 .block2{
-    width: 300px;
+    width: 30vw;
+    text-align: center;
 }
 .block3{
-    width: 300px;
+    width: 30vw;
+    text-align: center;
+}
+.block4{
+    width: 40vw;
+    text-align: center;
+}
+.block5{
+    width: 30vw;
+    text-align: center;
 }
 footer{
     background-color:#880E4F;
@@ -121,5 +169,22 @@ footer{
     align-content:center;
     justify-content: space-around;
     flex-wrap: wrap;
-
+}
+.caja{
+    display: flex;
+    width: 60%;
+    height: 49vh;
+    background-color:#FDEBD0 ;
+    justify-content: center;
+    flex-direction: row;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}    
+.fotito{
+    width: 50vw;
+    height: 50vh;
 }
