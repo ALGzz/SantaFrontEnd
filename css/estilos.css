@@ -12,6 +12,9 @@ body{
     background-repeat:no-repeat;
     background-position: 100%;
 }
+.titulo_2{
+    width: 30vw;
+}
 header{
     background-image: url(../Imagenes/fondo_grande.jpg);
     display: flex;
@@ -25,14 +28,19 @@ header{
     width: 20vw;
 }
 nav{
-    background-color:#3949AB;
     text-align: center;
-    font-size: x-large;
+    font-size: 1.3rem;
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Dancing Script', cursive;
+}
+.page{
+    display: flex;
+    width: 21%;
+    border-style: solid;
+    justify-content: center
 }
 a:hover{
     color:white;
@@ -68,10 +76,19 @@ a:hover{
     width: 100%;
     justify-content: center;
 }
+.flyer1{
+    display: flex;
+    width: 70vw;
+}
+.flyer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .titulo{
     text-decoration-line: underline;
     font-family: 'Dancing Script', cursive;
-    font-size: 1cm;
+    font-size: 2rem;
     color:#3949AB;
     background-color:goldenrod;
     text-align: center;
@@ -79,7 +96,7 @@ a:hover{
 .texto{
     text-align: justify;
     font-style:italic;
-    font-size: 7mm;
+    font-size: 1rem;
     color:#FDEBD0
 }
 .subtitulo{
@@ -98,18 +115,18 @@ ol{
     color:#FDEBD0;
     text-align:left;
     font-family: 'Perpetua';
-    font-size: 6mm;
+    font-size: 1rem;
 }
 ul{
     color:#FDEBD0;
     text-align:left;
     font-family: 'Perpetua';
-    font-size: 6mm;
+    font-size: 1rem;
 }
 h2{
     color:#880E4F;
     font-family:'Perpetua';
-    font-size: 8mm;
+    font-size: 2rem ;
     text-align: center;
 }
 .linea{
@@ -124,7 +141,7 @@ h2{
 }
 section{
     display: flex;
-    height: 189vh;
+    height: 30%;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: stretch;
@@ -133,15 +150,15 @@ section{
 }
 .segundo{
     display: flex;
-    height: 189vh;
     flex-direction: column;
     flex-wrap: wrap
 }
 .redes{
-    width: 30px;
+    width: 16%;
+
 }
 .block1{
-    width: 30vw;
+    width: 25vw;
     text-align: center;
 }
 .block2{
@@ -149,11 +166,11 @@ section{
     text-align: center;
 }
 .block3{
-    width: 30vw;
+    width: 25vw;
     text-align: center;
 }
 .block4{
-    width: 40vw;
+    width: 30vw;
     text-align: center;
 }
 .block5{
@@ -187,4 +204,15 @@ footer{
 .fotito{
     width: 50vw;
     height: 50vh;
+}
+@media (max-width: 768px){
+    .audio1{
+        display: none;
+    }
+}    
+@media (min-width: 767px){
+    .flyer1{
+        display: none;
+    }
+
 }
