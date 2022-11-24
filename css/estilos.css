@@ -45,7 +45,7 @@ nav{
 }
 a:hover{
     color:white;
-    font-size: 23%;
+    font-size: 150%;
     font-variant: initial;
 }
 .padre{
@@ -67,7 +67,6 @@ a:hover{
 .imagdos{
     width: 30vw;
 }
-
 .caja2{
     display: flex;
     flex-direction: column;
