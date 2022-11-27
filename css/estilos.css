@@ -188,6 +188,9 @@ footer{
     justify-content: space-around;
     flex-wrap: wrap;
 }
+.datos{
+    font-size: 1rem;
+}
 .caja{
     display: flex;
     width: 60%;
@@ -205,6 +208,22 @@ footer{
 .fotito{
     width: 50vw;
     height: 50vh;
+}
+.card{
+    background-color: lightgoldenrodyellow;
+    width: 50vw;
+}
+.col-sm-12{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    background-color:#880E4F;
+    color: white;
+}
+.btn:hover{
+    background-color:coral;
+    color: #880E4F;
 }
 @media (max-width: 768px){
     .audio1{
