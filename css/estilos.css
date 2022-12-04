@@ -20,9 +20,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-content: center;
     flex-direction: row;
+    width: 100%;
 }
 .logo{
     width: 20vw;
@@ -163,7 +164,7 @@ section{
     text-align: center;
 }
 .block2{
-    width: 30vw;
+    width: 33%;
     text-align: center;
 }
 .block3{
@@ -171,12 +172,23 @@ section{
     text-align: center;
 }
 .block4{
-    width: 30vw;
+    width: 33%;
     text-align: center;
 }
 .block5{
-    width: 30vw;
+    width: 33%;
     text-align: center;
+}
+.block6{
+    text-align: center;
+    background-color: #FDEBD0;
+    width: 15vw;
+    font-size: 1.3rem;
+    font-family: 'Dancing Script', cursive;
+}
+.block6:hover{
+    background-color: #3949AB;
+    color: #FDEBD0;
 }
 footer{
     background-color:#880E4F;
